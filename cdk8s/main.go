@@ -24,6 +24,6 @@ func NewMyChart(scope constructs.Construct, id string, props *MyChartProps) cdk8
 
 func main() {
 	app := cdk8s.NewApp(nil)
-	NewMyChart(app, "src", nil)
+	NewMyChart(app, "cdk8s-prac", nil)
 	app.Synth()
 }
