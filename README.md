@@ -9,6 +9,7 @@ cdk8s init go-app
 - マニフェストを生成
 
 ```shell
+cd cdk8s
 cdk8s synth
 ```
 
